@@ -15,7 +15,7 @@ The goal of this project is to build a flexible CNN model for classifying images
 - TensorFlow
 - NumPy
 
-##Usage
+##  Usage
 
 The following code demonstrates how to build and compile the CNN model:
 
@@ -53,7 +53,7 @@ model = build_cnn_model(input_shape, num_filters, filter_size, activation, dense
 model.summary()
 
 
-##Model Architecture
+##  Model Architecture
 The CNN model consists of the following layers:
 
 Convolutional Layer
@@ -76,9 +76,10 @@ Dense Layer
 ReLU Activation
 Output Layer with 10 neurons (softmax activation)
 
-License
+##  License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+##  Acknowledgements
+
 The project uses the iNaturalist dataset.
 Keras and TensorFlow libraries were used for building and training the model.
