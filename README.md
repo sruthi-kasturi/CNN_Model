@@ -1,6 +1,4 @@
-# CNN
-
-# CNN Model for Image Classification
+# CNN_iNaturalist_Classifier
 
 This repository contains a Convolutional Neural Network (CNN) model implemented in Keras for image classification. The model consists of 5 convolutional layers, each followed by a ReLU activation function and a max-pooling layer. After the convolutional blocks, the network has a dense layer followed by an output layer with 10 neurons, one for each class.
 
